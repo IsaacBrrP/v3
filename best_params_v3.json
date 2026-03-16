@@ -1,0 +1,39 @@
+{
+  "lasso": {
+    "alpha": 0.00031489116479568613
+  },
+  "ridge": {
+    "alpha": 63.512210106407046
+  },
+  "elasticnet": {
+    "alpha": 0.00031489116479568613,
+    "l1_ratio": 0.9461357327048254
+  },
+  "xgb": {
+    "max_depth": 5,
+    "learning_rate": 0.025529516046973785,
+    "min_child_weight": 1,
+    "subsample": 0.9879639408647978,
+    "colsample_bytree": 0.9162213204002109,
+    "reg_alpha": 0.0007068974950624604,
+    "reg_lambda": 0.23102018878452935,
+    "gamma": 0.09170225492671691
+  },
+  "lgb": {
+    "num_leaves": 50,
+    "min_child_samples": 48,
+    "subsample": 0.892797576724562,
+    "colsample_bytree": 0.7993292420985183,
+    "reg_alpha": 0.00042079886696066364,
+    "reg_lambda": 0.0004207053950287938,
+    "learning_rate": 0.00571549193815661
+  },
+  "catboost": {
+    "depth": 5,
+    "learning_rate": 0.044635901521768134,
+    "l2_leaf_reg": 5.395030966670228,
+    "min_data_in_leaf": 30,
+    "random_strength": 0.24041677639819287,
+    "bagging_temperature": 0.2403950683025824
+  }
+}
